@@ -13,4 +13,5 @@ comtypes==1.1.10
 
 
 Flask==2.0.1
+gunicorn==61.2.0
 
