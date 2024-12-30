@@ -1,0 +1,169 @@
+
+
+
+
+
+
+
+.image{
+    
+    
+    /* background-color: rgb(19, 19, 20); */
+    width: 100%;
+    height: 80px;
+    overflow: auto;
+    
+}
+
+
+
+.image2{
+    
+    position: absolute;
+    margin-top: 0px;
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+    /* background: url("./images/background5.png") */
+}
+
+
+
+.image3{
+    position: absolute;
+    font-size: 60;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: #07f81b;
+    width: 200px;
+    height: 80px;
+    background: url("./images/background8.png")
+} 
+
+
+
+.logo1{
+  position: absolute;
+  margin-left: 420px;
+  width: 50px;
+  height: 60px;
+  background:  url("./images/logo1.png"); 
+  background-size: 125%;
+  z-index: 2;
+
+}
+
+
+.image4{
+    position:absolute;
+    margin-top: 0px;
+    background-color: gray;
+    font-size: 30;
+    font-family:'Gothic Pro';
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-weight: 300;
+    text-align:left;
+    /* color: #07f81b; */
+    margin-left: 0px;
+    width: 100%;
+    height: 80px;
+    /* background: url("./images/MENU4.png"); */
+    background-size: 100%;
+    z-index: 2;
+    
+}
+
+
+
+/* .image4 {
+  position:absolute;
+  left: 300px;
+  background-color: #15f333;
+  color: red;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+ */
+
+.menu1{
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 20px;
+  width:30%; 
+  font-family:'Gothic Pro';
+  font-size: 20px;
+  color: white;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 2px;
+  z-index: 2;
+  background-color: black;
+  /* background: url("./images/background5.png"); */
+  
+}
+
+
+
+.menu2{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 800px;
+  font-family:'Gothic Pro';
+  width:30%; 
+  font-size: 20px;
+  color: white;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 2px;
+  z-index: 2;
+  background-color: black;
+  /* background: url("./images/background5.png"); */
+  
+}
+
+.gaming1{
+
+  height:1000px;
+  background: url("./images/mockexample1.png")
+}
+
+
+
+
+
+/* dropdowm menu stuff */
+
+
+.dropdownposition {
+    position: absolute;
+    left: 300px;;
+  }
+
+
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    left: 300px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+
+/* .dropdown-content a:hover {background-color: #ddd;} */
+
+.show {display:block;}
+ 
