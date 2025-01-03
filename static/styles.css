@@ -19,7 +19,7 @@
 
 .image2{
     
-    position: absolute;
+    /* position: absolute; */
     margin-top: 0px;
     width: 100%;
     height: 1080px;
@@ -56,20 +56,21 @@
 
 
 .image4{
-    position:absolute;
+    /* position:absolute;  */
     margin-top: 0px;
     background-color: gray;
     font-size: 50;
     font-family:'Gothic Pro';
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     font-weight: 800;
-    text-align:left;
+    /* text-align:left; */
     /* color: #07f81b; */
-    margin-left: 0px;
-    width: 100%;
+    /* margin-left: 0px; */
+    float: left;
+    width: 40%;
     height: 80px;
     /* background: url("./images/MENU4.png"); */
-    background-size: 100%;
+    /* background-size: 100%; */
     z-index: 2;
     
 }
@@ -89,9 +90,10 @@
  */
 
 .menu1{
-  position: absolute;
-  margin-left: 400px;
-  margin-top: 20px;
+  /* position: absolute; */
+  /* margin-left: 400px; */
+  float: left;
+  margin-top: 0px;
   width:30%; 
   font-family:'Gothic Pro';
   font-size: 20px;
@@ -109,9 +111,10 @@
 
 
 .menu2{
-  position: absolute;
-  margin-top: 20px;
-  margin-left: 800px;
+  /* position: absolute; */
+  /* margin-top: 20px; */
+  /* margin-left: 800px; */
+  float: left;
   font-family:'Gothic Pro';
   width:30%; 
   font-size: 20px;
